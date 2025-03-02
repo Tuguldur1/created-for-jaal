@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Happy Birthday">
+    <meta name="keywords" content="Birthday, Happy">
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+    <link rel="stylesheet" href="style.css/1.css">
+    <title>3 years</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "vOZGSZ1ZH3wt-UXJP",
+            });
+        })();
+    </script>
+</head>
+
+<body>    
+
+    
+
+        <div class="container">
+
+            <div class="pyro">
+                <div class="before"></div>
+                <div class="after"></div>
+            </div>
+            <h1 class="glitch" data-text="3 Жилийн баярын мэнд жаалаа">3 Жилийн баярын <br>мэнд жаалаа</h1>
+
+            <p>🎉Сайн ухаж торьнож үзээрэй дэ золиг минэ🎉</p>
+
+        </div>
+
+        <header>
+            <div class="first">
+                <p>Энд дарж дууг хүлээн авж сонс ну баярлаа --></p>
+                <img id="play" onclick="toggleAudio()" src="img/giphy.webp" class="img-fluid" alt="Responsive image" width="30px" height="70px">
+                    
+                <audio id='player' src='music/mc.mp3'></audio>
+                
+                <img id="pause" onclick="toggleAudio()" src="img/giphy.webp" class="img-fluid" alt="Responsive image" width="30px" height="70px">
+                
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            </div>
+        </header>
+
+    <div class="container second">
+
+        <div class="card">
+            <div class="info">
+                <img src="photos/asuult.JPG" alt="">
+                <h3>Асуулт</h3>
+                <p>Хайрынха асуултанд бэлнүү жаалаа.</p>
+            </div>
+
+            <a href="asuult.html">Орох</a>
+
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <img src="photos/sur.jpg" alt="">
+                <h3>Зураг</h3>
+                <p>Чиний харж байгаагүй зурагнууд шүү.</p>
+            </div>
+
+            <a href="photo.html">Орох</a>
+
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <img src="img/udur.jpg" alt="">
+                <h3>Өдөр</h3>
+                <p>Албан ёсоор найз залуу гэсэн хүндэт цолыг авсан өдөр юмуда.</p>
+            </div>
+
+            <a href="Day.html">Орох</a>
+
+        </div>
+        <div class="card">
+            <div class="info">
+                <img src="birthday/cover.jpg" alt="">
+                <h3>Төрсөн өдөр</h3>
+                <p>21 насны төрсөн өдөр.</p>
+            </div>
+
+            <a href="2025.html">Орох</a>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="first">
+            <p>Дуугаа бас зогсоож болно хэрвээ хүсүүл --></p>
+            <img id="play" onclick="toggleAudio()" src="img/giphy.webp" class="img-fluid" alt="Responsive image" width="30px" height="70px">
+                
+            <audio id='player' src='music/mc.mp3'></audio>
+            
+            <img id="pause" onclick="toggleAudio()" src="img/giphy.webp" class="img-fluid" alt="Responsive image" width="30px" height="70px">
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        </div>
+    </footer>
+
+    <div class="wrapper">
+
+        <div class="message">
+            <h4>Захидал</h4>
+            <div class="textarea">
+                <textarea id="message" placeholder="Бичсэн зүйл чинь надад ирэх болно."></textarea>
+            </div>
+            <button onclick="sendMail()" type="button" class="button">Submit</button>    
+        </div>
+
+
+
+    </div>
+
+    <script src="script/1.js"></script>
+
+</body>
+</html>

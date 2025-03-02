@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 200px 50px;
+    background: #0D1A29;
+    font-family: "Helvetica Neue", "Open Sans", helvetica, arial, sans-serif;
+    display: grid;
+    place-items: center ;
+    height: 100vh;
+  }
+  
+  #timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: #fff;
+    text-shadow: 0 0 20px #48C8FF;
+  }
+  
+  #timer div {
+    display: inline-block;
+    min-width: 90px;
+  }
+  
+  #timer div span {
+    color: #B1CDF1;
+    display: block;
+    font-size: 0.4em;
+    font-weight: 400;
+  }
+  
+  #since {
+    color: #B1CDF1;
+    display: block;
+    font-size: 0.35em;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px #48C8FF;
+  }
+  
+.button{
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    color: #B1CDF1;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px #48C8FF;
+    border-radius: 10px;
+    border: 2px dashed #B1CDF1;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+.button:hover{
+    color: #48C8FF;
+}
+
